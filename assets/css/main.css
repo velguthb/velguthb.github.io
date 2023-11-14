@@ -194,6 +194,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 2.5em;
+		text-align: center; /*changed this for home page*/
 	}
 
 	h2 {
@@ -2278,7 +2279,7 @@ input, select, textarea {
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -1em;
+		margin-left: 2.5em;
 		padding-left: 0;
 	}
 
@@ -3424,6 +3425,7 @@ input, select, textarea {
 
 		#banner h1 {
 			font-size: 3.25em;
+			
 		}
 
 		#banner > .inner {
@@ -3478,6 +3480,7 @@ input, select, textarea {
 					font-weight: 600;
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
+					position: relative; left: 75px; /*mijght be busted but check after finding buton placement*/ 
 				}
 
 		#banner.major {
