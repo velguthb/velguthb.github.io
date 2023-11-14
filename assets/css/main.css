@@ -3415,7 +3415,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: .1; /* changed this, no idea what is was but it made me not purple*/
+			opacity: 0; /* changed this, no idea what is was but it made me not purple*/
 			position: absolute;
 			top: 0;
 			width: 100%;
